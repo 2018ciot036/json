@@ -1,23 +1,28 @@
 {
 	"verify": {
-		"_sid": "123456789123456789123456789",
+		"sid": "123456789123456789123456789",
 		"valid": true,
 		"sso": ""
 	},
 	"authenticate": {
-		"_sid": "987654321987654321987654321",
+		"sid": "987654321987654321987654321",
 		"valid": true,
 		"mfa_mobile": true,
 		"mfa_email": true
 	},
 	"authorize": {
-		"key": "123456789123456789123456789987632198764321987654321",
+		"sid": "321098874652367690987654234",
 		"valid": true,
+		"token": "123456789123456789123456789987632198764321987654321123456789123456789123456789987632198764321987654321",
 		"user": {
 			"name": "mahesh kumar",
 			"email": "mahesh.m@outlook.com",
-			"role": [],
-			"picture": ""
+			"role": ["administrator"],
+			"organization": "Organization name",
+			"orgid": 1,
+			"profile": {
+				"picture": ""
+			}
 		}
 	}
 }
